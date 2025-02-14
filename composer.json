@@ -3,10 +3,10 @@
     "description": "Lightna Magento package",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "require": {
-        "lightna/magento-frontend": "^1.0.12",
-        "lightna/magento-frontend-lane": "^1.0.12",
-        "lightna/phpunit": "^1.0.12"
+        "lightna/magento-frontend": "^1.0.13",
+        "lightna/magento-frontend-lane": "^1.0.13",
+        "lightna/phpunit": "^1.0.13"
     }
 }
