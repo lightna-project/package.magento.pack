@@ -31,8 +31,8 @@ return [
         //],
         //'database' => [
         //    'options' => [
-        //        'host' => '****',
-        //        'port' => '****',
+        //        'host' => 'localhost',
+        //        'port' => '3306',
         //        'username' => '****',
         //        'password' => '****',
         //        'dbname' => '****',
@@ -43,8 +43,8 @@ return [
     'project' => [
         // Give Lightna access to Magento database
         'connection' => [
-            'host' => '****',
-            'port' => '****',
+            'host' => 'localhost',
+            'port' => '3306',
             'username' => '****',
             'password' => '****',
             'dbname' => '****',
