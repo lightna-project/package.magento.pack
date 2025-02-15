@@ -5,7 +5,7 @@ install:
 	npm install
 
 self-update:
-	@composer update lightna/magento-pack && \
+	@composer update --with-all-dependencies && \
 	echo "\033[0;33m\n    Update your local entry files manually:\033[0m" && \
 	echo "\033[0;33m    (ignore if there was no actual package update in the output above)\033[0m\n" && \
 	echo "\033[0;33m        1) Backup your entry files\033[0m" && \
