@@ -7,6 +7,7 @@ return [
         'pool' => ['vendor', 'module'],
 
         // List of enabled modules
+        // Use relative to the Lightna entry path to the module (not the name)
         'enabled' => [
             'lightna/webpack',
             'lightna/tailwind',

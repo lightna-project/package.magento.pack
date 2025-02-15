@@ -4,9 +4,12 @@ install:
 	composer install
 	npm install
 
+self-update:
+	composer update lightna/magento-pack
+	cp -r vendor/lightna/magento-pack/entry/. .
+
 build:
 	LIGHTNA_EDITION=main make _build
-	make update
 
 _build:
 	./cli build.compile
