@@ -10,7 +10,7 @@ self-update:
 	echo "\033[0;33m    (ignore if there was no actual package update in the output above)\033[0m\n" && \
 	echo "\033[0;33m        1) Backup your entry files\033[0m" && \
 	echo "\033[0;33m        2) Run \"cp -r vendor/lightna/magento-pack/entry/. .\"\033[0m" && \
-	echo "\033[0;33m        3) Check the diff and restore the necessary local customization\033[0m" && \
+	echo "\033[0;33m        3) Check the diff and restore the necessary local customizations\033[0m" && \
 	echo "\033[0;33m        4) make install\033[0m\n"
 
 build:
