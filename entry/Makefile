@@ -4,15 +4,14 @@ install:
 	composer install
 	npm install
 
-.ONESHELL:
 self-update:
 	@echo "Checking for updates..."
-	if composer update lightna/magento-pack --with-all-dependencies --dry-run 2>&1 | grep -q " lightna/magento-pack"; then
-		echo "Update found. Making an update..."
-		composer update --with-all-dependencies
-		cp -r vendor/lightna/magento-pack/entry/. .
-	else
-		echo "No updates found."
+	@if composer update lightna/magento-pack --with-all-dependencies --dry-run 2>&1 | grep -q " lightna/magento-pack"; then \
+		echo "Update found. Making an update..."; \
+		composer update --with-all-dependencies && \
+		cp -r vendor/lightna/magento-pack/entry/. .; \
+	else \
+		echo "No updates found."; \
 	fi
 
 build:
