@@ -4,7 +4,7 @@ return [
     'mode' => 'dev',
     'router' => [
         'bypass' => [
-            'rules' => [
+            'rule' => [
                 'url_starts_with' => [
                     // Admin URL prefix
                     'admin(/|$)',
