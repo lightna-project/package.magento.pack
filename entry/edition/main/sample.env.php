@@ -1,6 +1,8 @@
 <?php
 
 return [
+
+    // Environment mode: 'dev' | 'prod'
     'mode' => 'dev',
     'router' => [
         'bypass' => [
